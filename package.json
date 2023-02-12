@@ -1,0 +1,23 @@
+{
+  "name": "estudos",
+  "version": "1.0.0",
+  "description": "Meus estudo gerais, rascunhos, etc...",
+  "main": "mundo.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelbusquet/Estudos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelbusquet/Estudos/issues"
+  },
+  "homepage": "https://github.com/raphaelbusquet/Estudos#readme",
+  "dependencies": {
+    "cfonts": "^3.1.1"
+  }
+}
