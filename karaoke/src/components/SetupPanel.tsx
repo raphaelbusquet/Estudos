@@ -1,5 +1,6 @@
 import { useState, type ChangeEvent } from 'react'
 import { DEMO_LYRICS, renderDemoTrack } from '../lib/demoTrack'
+import { LyricsSearch } from './LyricsSearch'
 
 export interface SongSource {
   title: string
@@ -61,6 +62,8 @@ export function SetupPanel({ onReady }: Props) {
           placeholder={'[00:05.00] Primeira linha\n[00:09.50] Segunda linha'}
         />
       </label>
+
+      <LyricsSearch onSelect={setLyricsText} />
 
       <label className="field field--inline">
         <span>ou carregar arquivo .lrc / .txt</span>
